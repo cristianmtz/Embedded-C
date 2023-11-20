@@ -1,5 +1,5 @@
 Author: Cristian Alejandro Martinez Godinez
-Description: Basic functions to print statistics
+Description: Basic functions
 
 # Embedded-C
-# Embedded-C
+
