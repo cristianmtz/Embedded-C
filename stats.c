@@ -46,18 +46,26 @@ void main() {
   
   //print_array(test);
   
-  //printf("Median of array: %d\n", find_median(test, SIZE));
-  
-  //printf("Mean of array: %.2lf\n", find_mean(test,SIZE));
-  
-  //printf("The maximun number is: %d\n", find_maximum(test, SIZE));
+ 
+  //sort_array(test);
 
-  //printf("The minumum number is: %d\n", find_minumum(test, SIZE));
-
-  sort_array(test);
+	print_statistics(test);
 
 }
 
+
+void print_statistics(unsigned char *test){
+
+	printf("Median of array: %d\n", find_median(test, SIZE));
+  
+  printf("Mean of array: %.2lf\n", find_mean(test,SIZE));
+  
+  printf("The maximun number is: %d\n", find_maximum(test, SIZE));
+
+  printf("The minumum number is: %d\n", find_minumum(test, SIZE));
+
+
+}
 
 
 void print_array(unsigned char *test){

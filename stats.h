@@ -38,7 +38,7 @@
  
  
 /*A function that prints the statistics of an array including minimum, maximum, mean, and median.  */
-void print_statistics(); 
+void print_statistics(unsigned char *array); 
 
  /* Give an array of data and a length, print the array to the screen */
 void print_array(unsigned char *array);
