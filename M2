@@ -1,0 +1,1 @@
+makefile for host machine and MSP432
